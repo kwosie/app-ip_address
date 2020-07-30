@@ -28,7 +28,7 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
  * @param {string} cidrStr - The IPv4 subnet expressed
  *                 in CIDR format.
  * @param {callback} callback - A callback function.
- * @return {string} (IPObject) - An object containng an ipv4 and ipv6 address.
+ * @return {Object} (IPObject) - An object containng an ipv4 and ipv6 address.
  */
 function getFirstIpAddress(cidrStr, callback) {
 
